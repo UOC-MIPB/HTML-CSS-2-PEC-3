@@ -7,7 +7,9 @@ module.exports = {
       purple: "#d53b9a",
       green: "#5dfa80",
       yellow: "#f4f670",
+      white: "#fff",
     },
+
     extend: {},
   },
   plugins: [],

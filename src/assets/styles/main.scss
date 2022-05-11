@@ -30,5 +30,16 @@
 /**
  * Do NOT include anything else in this file!
  */
+@layer base {
+  .nav-link {
+    @apply pr-4 text-yellow no-underline hover:text-blue;
+  }
+}
+
+@layer base {
+  .header-footer {
+    @apply flex flex-col md:flex-row justify-between w-full px-7 py-6 font-[700] bg-purple text-yellow;
+  }
+}
 
 @tailwind utilities;
